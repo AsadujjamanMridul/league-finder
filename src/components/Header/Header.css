@@ -1,0 +1,33 @@
+.bg{
+    background-image: url('../../images/bg-2.png');
+    background-repeat: no-repeat;
+    height: 20rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.font-montserrat{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30pt;
+    font-weight: 600;
+}
+
+.search-icon {
+    border-right: none;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    background-color: white;
+    color: #a8b2bd;
+}
+
+.search-field {
+    border-left: 0;
+}
+
+#search-btn {
+    background-color: #2b2024;
+    border-color: #2b2024;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12pt;
+    padding: 0 25px;
+}

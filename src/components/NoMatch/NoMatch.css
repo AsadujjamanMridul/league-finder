@@ -1,0 +1,10 @@
+.not-found-msg{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15pt;
+    font-weight: 600;
+    color: #fbf9fa;
+    padding-bottom: 5rem;
+    line-height: 1.5rem;
+    text-align: center;
+
+}

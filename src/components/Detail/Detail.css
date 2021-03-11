@@ -1,0 +1,44 @@
+.genderImg{
+    padding: 1rem 2rem !important;
+}
+
+.detail-card{
+    border-radius: 15px !important;
+    background-color: #fd0054 !important;
+}
+
+.detail-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18pt;
+    font-weight: 800;
+    color: #fbf9fa;
+    margin: 0;
+    padding-bottom: 1rem;
+    line-height: 1.5rem;
+}
+
+.detail-info{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12pt;
+    font-weight: 600;
+    color: #fbf9fa;
+}
+
+.detail-description{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10pt;
+    font-weight: 400;
+    color: #fbf9fa;
+}
+
+.facebook:hover{
+    color: #3B5998 !important;
+}
+
+.twitter:hover{
+    color: #1DA1F2 !important;
+}
+
+.youtube:hover{
+    color: #FF0000 !important;
+}

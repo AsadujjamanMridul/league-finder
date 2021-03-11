@@ -1,0 +1,83 @@
+.btn-explore {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    padding: 0.5rem 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    
+    border-radius: 0;
+    /* background-color: #1f4287 !important; */
+    background-color: #2b2024 !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11pt !important;
+    font-weight: 500 !important ;
+    color: white;
+}
+
+.btn-explore:hover{
+    background-color: #fbf9fa !important;
+    color: #2b2024;
+}
+
+.card-image {
+    object-fit: cover;
+}
+
+.league-card {
+    margin: 0;
+    padding: 0;
+}
+
+.card-bg{
+    background-color: #fbf9fa !important;
+    transition: background-color .4s ease-in-out !important;
+    transition-timing-function: ease-in-out;
+}
+
+.card-bg:hover{
+    background-color: #ff0156 !important;
+}
+
+.card-bg:hover .league-type{
+    color: #fbf9fa;
+}
+
+.card-bg:hover  .league-title{
+    color: #fbf9fa;
+}
+
+.league-badge{
+    margin: auto;
+    margin-top: 30px;
+}
+
+.league-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14pt;
+    font-weight: 700;
+    color: black;
+    margin: 0;
+    line-height: 1rem;
+    transition: color .4s ease-in-out !important;
+    transition-timing-function: ease-in-out;
+}
+
+.league-type{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11pt;
+    font-weight: 500;
+    color: #656565;
+    margin: 0;
+    transition: color .4s ease-in-out !important;
+    transition-timing-function: ease-in-out;
+}
