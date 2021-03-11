@@ -40,7 +40,7 @@ const Detail = () => {
                     <div className="row g-0">
                         <div className="col-md-6 d-flex justify-content-center align-items-center">
                             <div className="card-body">
-                                <h5 className="card-title detail-title">{strLeague}</h5>
+                                <h5 className="card-title detail-title my-2">{strLeague}</h5>
                                 <p className="card-text detail-info"><FontAwesomeIcon icon={faMapMarker} className='mr-2' />Founded: {intFormedYear}</p>
                                 <p className="card-text detail-info"><FontAwesomeIcon icon={faFlag} className='mr-2' />Country: {strCountry}</p>
                                 <p className="card-text detail-info"><FontAwesomeIcon icon={faFutbol} className='mr-2' />Sports Type: {strSport}</p>

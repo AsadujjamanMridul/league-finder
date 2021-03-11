@@ -22,7 +22,7 @@ const League = (props) => {
                 <img src={leagueImage} className="card-img-top card-image w-50 league-badge" alt="..." />
                 <div className="card-body d-flex justify-content-center">
                     <div>
-                        <h5 className="card-title text-center league-title mt-2">{strLeague}</h5>
+                        <h5 className="card-title text-center league-title my-2">{strLeague}</h5>
                         <p className="card-text text-center league-type mb-4">Sports type: {strSport}</p>
                         <div className='d-flex justify-content-center'>
                             <Link to={`/detail/${idLeague}`}>
